@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SingleViewModel {
+class SingleViewModel : ObservableObject {
     var data : Response?
     func getSingleData(completion: @escaping (Error?) -> Void) {
         GetSingleItems.getSingleItems(id: " ") {  result  in

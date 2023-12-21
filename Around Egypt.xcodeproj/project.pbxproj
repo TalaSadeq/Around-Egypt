@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE5033742B318AFB00B101FC /* experienceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5033732B318AFB00B101FC /* experienceResponse.swift */; };
 		EE795B732B33B45D005118C8 /* SingleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE795B722B33B45C005118C8 /* SingleViewModel.swift */; };
+		EE795B772B340646005118C8 /* SingleExperienceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE795B762B340646005118C8 /* SingleExperienceResponse.swift */; };
 		EEB096A22B324DC200FABA88 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB096A12B324DC200FABA88 /* HeaderViewCell.swift */; };
 		EEB096A62B32601500FABA88 /* RecommendedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB096A52B32601500FABA88 /* RecommendedViewCell.swift */; };
 		EEB096AB2B326D6300FABA88 /* ConstantLabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB096AA2B326D6300FABA88 /* ConstantLabelViewCell.swift */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		EE5033732B318AFB00B101FC /* experienceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceResponse.swift; sourceTree = "<group>"; };
 		EE795B722B33B45C005118C8 /* SingleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewModel.swift; sourceTree = "<group>"; };
+		EE795B762B340646005118C8 /* SingleExperienceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExperienceResponse.swift; sourceTree = "<group>"; };
 		EEB096A12B324DC200FABA88 /* HeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		EEB096A52B32601500FABA88 /* RecommendedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedViewCell.swift; sourceTree = "<group>"; };
 		EEB096AA2B326D6300FABA88 /* ConstantLabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantLabelViewCell.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			children = (
 				EED52BA92B30E274004C138D /* Response.swift */,
 				EE5033732B318AFB00B101FC /* experienceResponse.swift */,
+				EE795B762B340646005118C8 /* SingleExperienceResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				EED52B712B30604F004C138D /* ViewController.swift in Sources */,
 				EEB096B32B32F10500FABA88 /* getSearchItems.swift in Sources */,
 				EED52B6D2B30604F004C138D /* AppDelegate.swift in Sources */,
+				EE795B772B340646005118C8 /* SingleExperienceResponse.swift in Sources */,
 				EEB096B72B32F2E500FABA88 /* getRecentItems.swift in Sources */,
 				EEB096B52B32F29E00FABA88 /* postLikeApi.swift in Sources */,
 				EED52B772B30604F004C138D /* Around_Egypt.xcdatamodeld in Sources */,

@@ -6,7 +6,7 @@ import UIKit
 
 struct GetSingleItems {
     
-    static func getSingleItems(id : String, completion: @escaping (Result<Response, Error>) -> Void) {
+    static func getSingleItems(id : String, completion: @escaping (Result<SingleExperience, Error>) -> Void) {
        let url="https://aroundegypt.34ml.com/api/v2/experiences/\(id)"
 
         URLSession.shared.dataTask(with: URL(string: url)!) { data, response, error in
@@ -21,11 +21,10 @@ struct GetSingleItems {
             }
 
             do {
-                let result = try JSONDecoder().decode(Response.self, from: data)
+                let resultresp = try JSONDecoder().decode(SingleExperience.self, from: data)
                 DispatchQueue.main.async {
-                    completion(.success(result))
-                    print("We are heerrreeee")
-                    print(result.data.count)
+                    completion(.success(resultresp))
+                   
                 }
             } catch {
                 completion(.failure(error))
