@@ -8,7 +8,7 @@
 import Foundation
 
 class SingleViewModel : ObservableObject {
-    var data : Response?
+    var data : SingleExperience?
     func getSingleData(completion: @escaping (Error?) -> Void) {
         GetSingleItems.getSingleItems(id: " ") {  result  in
             switch result {

@@ -10,6 +10,8 @@
 		EE5033742B318AFB00B101FC /* experienceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5033732B318AFB00B101FC /* experienceResponse.swift */; };
 		EE795B732B33B45D005118C8 /* SingleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE795B722B33B45C005118C8 /* SingleViewModel.swift */; };
 		EE795B772B340646005118C8 /* SingleExperienceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE795B762B340646005118C8 /* SingleExperienceResponse.swift */; };
+		EE795B792B341C7F005118C8 /* RcommendedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE795B782B341C7F005118C8 /* RcommendedViewModel.swift */; };
+		EE795B7B2B341D1E005118C8 /* RecommendedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE795B7A2B341D1E005118C8 /* RecommendedResponse.swift */; };
 		EEB096A22B324DC200FABA88 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB096A12B324DC200FABA88 /* HeaderViewCell.swift */; };
 		EEB096A62B32601500FABA88 /* RecommendedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB096A52B32601500FABA88 /* RecommendedViewCell.swift */; };
 		EEB096AB2B326D6300FABA88 /* ConstantLabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB096AA2B326D6300FABA88 /* ConstantLabelViewCell.swift */; };
@@ -57,6 +59,8 @@
 		EE5033732B318AFB00B101FC /* experienceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experienceResponse.swift; sourceTree = "<group>"; };
 		EE795B722B33B45C005118C8 /* SingleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewModel.swift; sourceTree = "<group>"; };
 		EE795B762B340646005118C8 /* SingleExperienceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExperienceResponse.swift; sourceTree = "<group>"; };
+		EE795B782B341C7F005118C8 /* RcommendedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RcommendedViewModel.swift; sourceTree = "<group>"; };
+		EE795B7A2B341D1E005118C8 /* RecommendedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedResponse.swift; sourceTree = "<group>"; };
 		EEB096A12B324DC200FABA88 /* HeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		EEB096A52B32601500FABA88 /* RecommendedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedViewCell.swift; sourceTree = "<group>"; };
 		EEB096AA2B326D6300FABA88 /* ConstantLabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantLabelViewCell.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 			children = (
 				EE795B722B33B45C005118C8 /* SingleViewModel.swift */,
 				EED3EC482B33489000EB73AD /* RecentViewModel.swift */,
+				EE795B782B341C7F005118C8 /* RcommendedViewModel.swift */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				EED52BA92B30E274004C138D /* Response.swift */,
 				EE5033732B318AFB00B101FC /* experienceResponse.swift */,
 				EE795B762B340646005118C8 /* SingleExperienceResponse.swift */,
+				EE795B7A2B341D1E005118C8 /* RecommendedResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -413,6 +419,7 @@
 				EEB096A22B324DC200FABA88 /* HeaderViewCell.swift in Sources */,
 				EED3EC492B33489000EB73AD /* RecentViewModel.swift in Sources */,
 				EED52BA42B306636004C138D /* Constants.swift in Sources */,
+				EE795B7B2B341D1E005118C8 /* RecommendedResponse.swift in Sources */,
 				EED52BAC2B30EBEC004C138D /* getRecommendations.swift in Sources */,
 				EED52B712B30604F004C138D /* ViewController.swift in Sources */,
 				EEB096B32B32F10500FABA88 /* getSearchItems.swift in Sources */,
@@ -422,6 +429,7 @@
 				EEB096B52B32F29E00FABA88 /* postLikeApi.swift in Sources */,
 				EED52B772B30604F004C138D /* Around_Egypt.xcdatamodeld in Sources */,
 				EE795B732B33B45D005118C8 /* SingleViewModel.swift in Sources */,
+				EE795B792B341C7F005118C8 /* RcommendedViewModel.swift in Sources */,
 				EEB096AD2B32728000FABA88 /* RecentViewCell.swift in Sources */,
 				EEB096AF2B32B8D000FABA88 /* FooterRecentViewCell.swift in Sources */,
 				EED52B6F2B30604F004C138D /* SceneDelegate.swift in Sources */,

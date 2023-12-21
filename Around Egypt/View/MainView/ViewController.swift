@@ -236,11 +236,7 @@ extension ViewController : UICollectionViewDelegate , UICollectionViewDataSource
                             cell.leftLabel.text = "\(likesNo)"
                         }
                         cell.rightLabel.text = viewModel.data?.data[index]?.title
-                        
-                        
-                        // Configure heart button based on viewModel data (assuming you have a property for heart button state)
-                       // cell.heartButton.setImage(viewModel.isLiked ? UIImage(systemName: "heart.fill") : UIImage(systemName: "heart"), for: .normal)
-                       // cell.heartButton.tintColor = viewModel.isLiked ? .red : .black
+
                         
                         cell.tapAction = { [weak self] in
                             // Present the SwiftUI sheet here using the data from the cell
@@ -250,7 +246,9 @@ extension ViewController : UICollectionViewDelegate , UICollectionViewDataSource
                                 return
                             }
                             
-                            let imageDetailsView = SheetView(imageId: (self?.viewModel.data?.data[index]?.id)!)
+                           
+                            let imageDetailsView = SheetView(imageId: (self?.viewModel.data?.data[index]?.id)!, description: (self?.viewModel.data?.data[index]?.description) ?? "Description", title: (self?.viewModel.data?.data[index]?.title)!, likesNo: (self?.viewModel.data?.data[index]?.likesNo) ?? 0,imageUrl: (self?.viewModel.data?.data[index]?.cover_photo) ?? "Unavailable Image",  city: (self?.viewModel.data?.data[index]?.city?.name) ?? "Egypt"
+                                                             )
                             let host = UIHostingController(rootView: imageDetailsView)
                             self?.present(host, animated: true, completion: nil)
                         }

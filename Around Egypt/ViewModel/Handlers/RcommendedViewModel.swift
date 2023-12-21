@@ -1,14 +1,13 @@
 //
-//  RecentViewModel.swift
+//  RcommendedViewModel.swift
 //  Around Egypt
 //
 //  Created by Tala Sadeq on 12/20/23.
 //
 
 import Foundation
-import UIKit
 
-class RecentViewModel {
+class RecommendedViewModel {
     var data : Response?
     func fetchData(completion: @escaping (Error?) -> Void) {
         GetRecentItems.getRecentItems { result  in
@@ -25,4 +24,3 @@ class RecentViewModel {
     }
     
 }
-
